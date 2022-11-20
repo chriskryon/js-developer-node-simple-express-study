@@ -8,4 +8,4 @@ app.use("/status", (req: Request, res: Response, next: NextFunction) => {
 
 app.listen(3000, () => {
     console.log("Aplicação executando na porta 3000");
-})
+});
